@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%@include file="WEB-INF/header.jsp"%>
+
+
+
+
+
 
 
 <%@include file="WEB-INF/footer.jsp"%>
