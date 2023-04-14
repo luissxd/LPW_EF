@@ -17,27 +17,26 @@
 	<body>
 		<%@include file="WEB-INF/header.jsp" %>
 								
-		<div id="imprimelo3">
-			<div class="container">
-				<img src="images/f-participacion.jpg" width="1170" height="248" class="img-responsive mg30top">
+		<div class="container">
+			<img src="images/f-participacion.jpg" width="1170" height="248" class="img-responsive mg30top">
 
-				<section class="menu navbar-default menu05">
-					<a name="posicion"></a>
-					<nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false">
-						<ul class="nav navbar-nav">
-							<li class="bt-azul">
-								<a href="presidenciales.jsp">PRESIDENCIAL</a>
-							</li>
-							<li class="bt-amarillo">
-								<a href="svlActas">ACTAS</a>
-							</li>
-							<li class="bt-rojo act-rojo">
-								<a href="svlParticipacion">PARTICIPACIÓN CIUDADANA</a>
-							</li>
-						</ul>
-					</nav>
-				</section>
-
+			<section class="menu navbar-default menu05">
+				<a name="posicion"></a>
+				<nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false">
+					<ul class="nav navbar-nav">
+						<li class="bt-azul">
+							<a href="presidencial.jsp">PRESIDENCIAL</a>
+						</li>
+						<li class="bt-amarillo">
+							<a href="svlActas">ACTAS</a>
+						</li>
+						<li class="bt-rojo act-rojo">
+							<a href="svlParticipacion">PARTICIPACIÓN CIUDADANA</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			
 				<section class="contenedor">
 					<div class="row">
 						<div class="col-xs-12 col-md-3">
@@ -50,6 +49,7 @@
 						
 						<div class="col-xs-12 col-md-9" id="impreso">
 							<div class="contenido-interna">
+							<br>
 								<div class="titulos col-xs-12">
 									<div class="col-xs-11">
 										<h3> <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true" style="font-size:19px"></span> SEGUNDA ELECCIÓN PRESIDENCIAL 2016: PARTICIPACIÓN CIUDADANA</h3>

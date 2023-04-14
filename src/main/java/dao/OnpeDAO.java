@@ -29,5 +29,20 @@ public class OnpeDAO {
 		db.Sentencia( String.format( "usp_getDepartamentos %s,%s", inicio, fin ) );
 		return db.getRegistros();
 	}
-	
+	public Object getProvincias(String idDepartamento) {
+		db.Sentencia( String.format( "usp_getProvincias " + idDepartamento ) );
+		return db.getRegistros();
+	}
+	public Object getDistritos(String idProvincia) {
+		db.Sentencia( String.format( "usp_getDistritos " + idProvincia ) );
+		return db.getRegistros();
+	}
+	public Object getLocalesVotacion(String idDistrito) {
+		db.Sentencia( String.format( "usp_getLocalesVotacion " + idDistrito ) );
+		return db.getRegistros();
+	}
+	public Object getGruposVotacion(String idLocalVotacion) {
+		db.Sentencia( String.format( "usp_getGruposVotacion " + idLocalVotacion ) );
+		return db.getColumna();
+	}
 }
