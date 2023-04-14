@@ -1,6 +1,6 @@
 <%@ page pageEncoding="UTF-8"%>
-<footer class="footer-index">
-    <div class="container ">
+<footer class="footer-inside">
+    <div class="container">
         <div class="col-md-12 direc01">
             <span>CONTÁCTENOS</span>
             <p>Jr. Washington 1894, Cercado de Lima </p>
